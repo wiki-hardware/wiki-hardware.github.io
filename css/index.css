@@ -50,14 +50,15 @@ ul {
 }
 .s-side {
   min-width: 200px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 15%;
   bottom: 0;
   background-color: #292929;
-  box-shadow: 0px 0px 10px #313131;
   padding: 10px;
+  height:100%;
+  display:table;
 }
 .s-side .s-firstItem i {
   font-size: 20px;
@@ -100,5 +101,4 @@ ul {
 .s-secondDrop {
   display: none;
 }
-.cr{width:84%;height:auto;color:gray;}
 .y-box{width:84%;height:auto;color:black;margin-left:16%;}
