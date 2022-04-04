@@ -1,72 +1,315 @@
 <!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <title>Wiki-Hardware 硬件百科</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="img/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/tiny-slider.css">
-    <link rel="stylesheet" href="css/glightbox.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style2.css">
-  </head>
-  <body>
-
-    <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light" id="navbar">
-		  <div class="container">
-		    <a class="navbar-brand align-items-center" href="index.html">
-          Wiki-Hardware 硬件百科
-        </a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="fa fa-bars"></span> 分类
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-		        <li class="nav-item"><a class="nav-link" href="#">主板</a></li>
-		        <li class="nav-item"><a class="nav-link" href="#">CPU</a></li>
-		        <li class="nav-item"><a class="nav-link" href="#">显卡</a></li> 
-		        <li class="nav-item"><a class="nav-link" href="#">内存</a></li> 
-		        <li class="nav-item"><a class="nav-link" href="#">电源</a></li> 
-		        <li class="nav-item"><a class="nav-link" href="#">硬盘</a></li> 
-		        <li class="nav-item"><a class="nav-link" href="#">机箱</a></li> 
-		        <li class="nav-item"><a class="nav-link" href="#">散热器</a></li> 
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
-
-		<section class="hero-wrap" id="home" style="background-image: url('img/BG.jpg');">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center">
-        	<div class="col-lg-7">
-            <div class="text mt-5" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-              <span class="subheading"><a href=#">欢迎来到</a></span>
-          		<h1 class="mb-4">Wiki-Hardware<br>
-                                <p>一个给硬件做科普的百科网站</p>
-                  <span class="wrap"></span>
-                </span>
-              </h1>
-              <div class="w-md-75 w-100">
-                <p class="mb-4">3000预算进卡吧，四路泰坦抱回家。3000预算进图吧，剩下2000给爸妈</p>
-            		<p><a href="about.html" class="btn btn-primary p-4 py-3">关于 <span class="ion-ios-arrow-round-forward"></span></a> <a href="wiki.html" class="btn btn-white p-4 py-3 ms-lg-2">百科<span class="ion-ios-arrow-round-forward"></span></a></p>
-                <p class="social-media mt-5"><a href="https://space.bilibili.com/83468492"><span class="ion-ios-add"></span> BiliBili</a> <a href="https://github.com/wiki-hardware"><span class="ion-ios-add"></span> Github</a> <a href="http://www.tbtool.cn/"><span class="ion-ios-add"></span>图吧工具箱</a></p>
-		<audio controls="controls"><source src="audio/Rather Be x Without Me.mp3" type="audio/mp3" />
-            </div>
-          </section>
- 
-	    
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/tiny-slider.js"></script>
-  <script src="js/glightbox.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/typewritter.js"></script>
-  <script src="js/slideNav.js"></script>
-  <script src="js/main.js"></script>
-
-    
-  </body>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Wiki-Hardware 硬件百科</title>
+	</head>
+	<link href="img/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/index.css" />
+	
+	<body>
+	
+	    <div class="s-side">
+	        <ul>
+	            <li class="s-firstItem first">
+	                <a href="#">
+	                    <i class="fa fa-home"></i>
+	                    <span>首页</span>
+	                </a>
+	            </li>
+	            
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>主板</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>技嘉</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>华硕</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>CPU</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>英特尔</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>AMD</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>显卡</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>技嘉</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>华硕</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>内存</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>美商海盗船</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>金士顿</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>电源</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>红星</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>酷冷至尊</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>硬盘</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>金士顿</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>西部数据</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>机箱</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>技嘉</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>华硕</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            <li class="first">
+	                <div class="d-firstNav s-firstNav clearfix">
+	                    <i class="fa fa-bars"></i>
+	                    <span>散热器</span>
+	                    <i class="fa fa-caret-right fr "></i>
+	                </div>
+	                <ul class="d-firstDrop s-firstDrop">
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>酷冷至尊</span>
+	                            <i class="fa fa-caret-right fr"></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                    <li>
+	                        <div class="d-secondNav s-secondNav">
+	                            <i class="fa fa-minus-square-o"></i>
+	                            <span>英特尔</span>
+	                            <i class="fa fa-caret-right fr "></i>
+	                        </div>
+	                        <ul class="d-secondDrop s-secondDrop">
+	                            <li class="s-thirdItem">
+	                                <a href="#">三级导航</a>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	                            </li>
+	                        </ul>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </div>  
+          </body>
+         
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js" ></script>
 </html>
