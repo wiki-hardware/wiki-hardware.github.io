@@ -101,4 +101,4 @@ ul {
 .s-secondDrop {
   display: none;
 }
-.y-box{width:84%;height:auto;color:black;margin-left:16%;}
+.y-box{width:84%;height:auto;color:black;position: fixed;margin-left:16%;}
