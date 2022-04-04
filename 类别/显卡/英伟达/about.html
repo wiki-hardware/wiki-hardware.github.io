@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>Wiki-Hardware 硬件百科</title>
+	<link href="img/favicon.ico" rel="shortcut icon">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+                <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+	</head>
+
+	<body>
+            <div class="text" style=" text-align:center;">
+	<h1>本网站内容均来自网络，与站长无关</h1>
+                <h5>站长博客:Steve7811D.github.io</h5>
+                <p>考虑到大多数，小部分冷门和过时品牌未收录，有问题可在下方留言板留言</p>
+                <p>如果有什么硬件未收录的话可以向站长提出，经过数据收集后会收录，站长邮箱485257612@qq.com</p>
+		<h5>站长的话</h5>
+		<p>我毕竟能力有限，所以页面简陋也是没有办法，希望能帮助到大家/p>
+            </div>
+                <div id="gitalk-container"></div>
+                <script type="text/javascript">
+                var gitalk = new Gitalk({
+                clientID: `dbe6cb486741d35e789f`, //上面获取到的值
+                clientSecret: `e2195efdd9d6f28603714a295622b402cb8b7b9f`,//上面获取到的值
+                repo: `wiki-hardware.github.io`, //您刚才建立仓库的名字
+                owner: 'wiki-hardware', //你的GitHub用户名字
+                admin: ['wiki-hardware'], //你的GitHub用户的名字
+                id: 'about', //,每个页面的ID不能一样如果重复就会把其他页面的评论引进来,每个页面的ID不能一样
+                });
+                gitalk.render('gitalk-container');
+                </script> 
+          </body>
+         
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+</html>
